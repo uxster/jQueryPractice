@@ -1,0 +1,43 @@
+<!--Create a basic html page without any CSS styling to it, the page should have at least 10 elements on it.
+
+Use jQuery to animate the elements, you can for instance use hide(), show(),fadeIn(),fadeOut(),slideToggle()...etc. You should have at least 5 different effects happen.
+
+You must also have at least 3 different events handlers as well (you can choose for instance click,hover and mouseEnter but you're free to use others if you want).-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery practice</title>
+</head>
+
+<script>
+$(document).ready(function() {			//check to see if all the elements are loaded
+	$('#welcome').click(function() {	//lookout for an element with the 'welcome' ID
+		$('img').hide();				//when clicked, images will hide 
+		$('body').css({					//and the background-color of body will change to #ffffff
+			"background-color": "#FFFFFF";	//access this element of the css of body
+		})
+	})
+});
+</script>
+<body>
+
+<header>
+	<nav>
+		<ul>
+			<li> <a href=#>one</a> </li>
+			<li> <a href=#>two</a> </li>
+			<li> <a href=#>three</a> </li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+	<img src="" />
+</main>
+
+<footer>
+</footer>
+
+</body>
+</html>
