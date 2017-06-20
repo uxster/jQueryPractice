@@ -9,17 +9,6 @@ You must also have at least 3 different events handlers as well (you can choose 
 <head>
 	<title>jQuery practice</title>
 </head>
-
-<script>
-$(document).ready(function() {			//check to see if all the elements are loaded
-	$('#welcome').click(function() {	//lookout for an element with the 'welcome' ID
-		$('img').hide();				//when clicked, images will hide 
-		$('body').css({					//and the background-color of body will change to #ffffff
-			"background-color": "#FFFFFF";	//access this element of the css of body
-		})
-	})
-});
-</script>
 <body>
 
 <header>
@@ -38,6 +27,8 @@ $(document).ready(function() {			//check to see if all the elements are loaded
 
 <footer>
 </footer>
+
+<script src="includes/jQuery.js" type="text/javascript"></script>
 
 </body>
 </html>
