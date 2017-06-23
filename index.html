@@ -10,29 +10,49 @@ You must also have at least 3 different events handlers as well (you can choose 
 	<title>jQuery practice</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<body>
+<body style="background-color:darkgreen; text-align:center;">
 
 <header>
-	<nav>
-		<ul>
-			<li> <a href=#>one</a> </li>
-			<li> <a href=#>two</a> </li>
-			<li> <a href=#>three</a> </li>
-		</ul>
-	</nav>
+	<h1>Gotta catch them all!</h1>
+	<p>Click on the pokémon to catch them woooooo</p>
 </header>
 
 <main>
-	<h1>Gotta catch them all!</h1>
-
-	<p>Click on the pokémon to catch them woooooo</p>
-
 	<div id="pokemon">
 		<img src="images/pikachu-2.png" />
 		<img src="images/snorlax.png" />
 	</div>
 
-	<button>Release Pokémon</button>
+	<div class="pokeball">
+		<img src="images/pokeball.png" />
+		<img src="images/pokeball.png" />
+	</div>
+
+	<button id="release">Release Pokémon</button>
+
+	<p>----------------------------------------------------</p>
+
+	<h1>Hide and seek!</h1>
+	<p>Let's play hide and seek with Jigglypuff woooooo</p>
+
+	<div id="jiggly" style="height: 250px;">
+		<div id="jigglyimage" style="display: none; height:100px; width:100px; margin: 0 auto; background-color: magenta">Imagine a Jigglypuff image here</div>
+		<button id="hideandseek">Hide and Seek</button>
+	</div>
+
+	<p>----------------------------------------------------</p>
+
+	<h1>Clean up!</h1>
+	<p>Remove the footprints with your mouse woooooo</p>
+
+	<button id="messy">Make it messy again</button>
+
+	<div id="clean" style="height: 1000px">
+		<img src="images/footprints.png" />
+		<img src="images/footprints.png" />
+		<img src="images/footprints.png" />
+		<img src="images/footprints.png" />
+	</div>
 
 </main>
 
